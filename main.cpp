@@ -5,15 +5,18 @@
 #include <string>
 using namespace std;
 class neuron {
-    string name;
-    int input[900];
-    int output;
-    int mem[900];
+    public:
+        string name;
+        int input[900];
+        int output;
+        int mem[900];
 };
 int main()
 {
     for (int i = 0; i >= 32; i++) {
-        neuron neuro_web
+        neuron neuro_web;
+        neuro_web.output = 0;
+        neuro_web.name = 'A';
     }
 }
 
